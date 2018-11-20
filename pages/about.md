@@ -8,7 +8,7 @@ Rather than being a conventional dictionary, which assumes an authoritative role
 
 **Creator / director**: Natasha Chenier
 **Tech leads**: James O'Sullivan, Jonathan Reeve
-**Advisory board**: Bill Brockman, Ciaran McMorran, Elizabeth M. Bonapfel, Fritz Senn, Ira Nadel, James O’Sullivan, Jerome McGann, Matt Cohen, and Terence Killeen.
+**Advisory board**: Bill Brockman, Ronan Crowley, Ciaran McMorran, Elizabeth M. Bonapfel, Fritz Senn, Ira Nadel, James O’Sullivan, Jerome McGann, Matt Cohen, and Terence Killeen.
 
 ## Working Editions 
 
