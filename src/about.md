@@ -1,3 +1,8 @@
+---
+title: About
+layout: page.pug
+---
+
 # About
 
 James Joyce invented thousands of words, most of which have yet to be thoroughly defined or analyzed. And many still elude understanding. The online and open access Joyce Word Dictionary (JWD) aims to provide a space in which readers, scholars, and lexicographers around the world can explore Joyce’s elaborate contribution to literature and to language.
