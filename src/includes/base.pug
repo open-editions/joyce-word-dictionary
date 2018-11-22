@@ -4,6 +4,16 @@ html
     // Needed for responsiveness
     meta(name="viewport" content="width=device-width, initial-scale=1")
     link(rel="stylesheet", href="/assets/css/bulma.min.css")
+    // For Datatables.net
+    link(rel="stylesheet", href="//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css")
+    script(src="//code.jquery.com/jquery-3.3.1.slim.min.js", integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=", crossorigin="anonymous")
+    script(src="//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js")
+    script.
+      $(document).ready( function () {    $('#wordTable').DataTable({
+        'paging': false,
+        'scrollY': true,
+        'scroller': { 'rowHeight': 30 }
+      });} );
     title= title
   body
     .container
