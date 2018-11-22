@@ -1,0 +1,25 @@
+---
+layout: base
+---
+
+main
+  p Here are the words:
+
+  div
+    table.table
+      thead
+        td Text
+        td Word
+        td Citation
+        td Analysis
+        td Contributor
+      tbody
+        each chunk in data
+          each row in chunk
+            //- span!= JSON.stringify(row)
+            tr
+              td= row.text
+              td= row.word
+              td= row.citation
+              td= row.analysis
+              td= row.contributor

@@ -1,6 +1,29 @@
+doctype html
 html
   head
+    // Needed for responsiveness
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(rel="stylesheet", href="/assets/css/bulma.min.css")
     title= title
   body
-    h1 Heyo!
-    main!= content
+    .container
+      nav.navbar(role="navigation").is-link.level
+        .level-item
+          a.navbar-item(href="/submit") Submit
+        .navbar-brand.level-item
+          a.navbar-item(href='/')= siteTitle
+          a(role="button" class="navbar-burger" aria-label="menu" aria-expanded="false")
+          span(aria-hidden="true")
+          span(aria-hidden="true")
+          span(aria-hidden="true")
+        .level-item
+          a.navbar-item(href="/about") About
+      main!= content
+      footer.footer
+        .content.has-text-centered
+          p The Joyce Word Dictionary is produced in conjunction with 
+            a(href="http://open-editions.org") Open Editions 
+            span and 
+            a(href="http://xpmethod.plaintext.in") The Group for Experimental Methods in the Humanities at Columbia University 
+          p Created using exclusively free and open-source software. Open-access, open-source, and released under the GPLv3.
+          a(href="https://github.com/open-editions/joyce-word-dictionary") See a problem with this site? Open an issue at our project page, on GitHub. Pull requests are also welcome. 

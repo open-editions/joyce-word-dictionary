@@ -1,5 +1,7 @@
-module.exports = function(config) {
 
+module.exports = function(eleventyConfig) {
+
+  eleventyConfig.addPassthroughCopy("src/assets/css");
   // Add a date formatter filter to Nunjucks
   // config.addFilter("dateDisplay", require("./filters/dates.js") );
   // config.addFilter("timestamp", require("./filters/timestamp.js") );
@@ -9,6 +11,7 @@ module.exports = function(config) {
     dir: {
       input: "src",
       output: "dist",
+      data: "data",
       includes: "includes"
     },
     templateFormats : ["pug", "md"],
