@@ -4,22 +4,23 @@ layout: page
 
 main.content!= content
 
-form
+form(name="contact", method="POST", data-netlify="true")
   .field
     label.label Text 
     .control
-      input.input(type="text", placeholder="Ulysses")
+      input.input(type="text", placeholder="Ulysses", name="text")
     label.label Citation
       .control
-        input.input(type="text", placeholder="Jane Doe")
+        input.input(type="text", placeholder="'nor avoice from afire bellowsed mishe mishe' (FW 003.09)", name="citation")
     label.label Analysis
       .control
-        textarea.textarea(placeholder="Enter your analysis here.")
+        textarea.textarea(placeholder="Enter your analysis here.", name="analysis")
     label.label Your Name
       .control
-        input.input(type="text", placeholder="Jane Doe")
+        input.input(type="text", placeholder="Jane Doe", name="contributor")
     label.label Your Email Address
       .control.has-icons-left.has-icons-right
-        input.input(type="email", placeholder="jane.doe@joycewords.com")
+        input.input(type="email", placeholder="jane.doe@joycewords.com", name="contributorEmail")
         span.icon.is-small.if-left
           i.fas.fa-envelope
+    button(type="submit") Submit
