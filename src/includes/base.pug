@@ -17,9 +17,9 @@ html
     title= title
   body
     .container
-      nav.navbar(role="navigation").is-link.level
+      nav.navbar(role="navigation").is-link.is-size-3.level
         .level-item
-          a.navbar-item(href="/submit") Submit
+          a.navbar-item.button.is-link(href="/about") About
         .navbar-brand.level-item
           a.navbar-item(href='/')= siteTitle
           a(role="button" class="navbar-burger" aria-label="menu" aria-expanded="false")
@@ -27,7 +27,7 @@ html
           span(aria-hidden="true")
           span(aria-hidden="true")
         .level-item
-          a.navbar-item(href="/about") About
+          a.navbar-item.button.is-link(href="/submit") Submit
       main!= content
       footer.footer
         .content.has-text-centered
