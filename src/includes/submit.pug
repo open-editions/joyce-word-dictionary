@@ -6,12 +6,15 @@ main.content!= content
 
 form(name="contact", method="POST", data-netlify="true")
   .field
-    label.label Text 
+    label.label Text
     .control
       input.input(type="text", placeholder="Ulysses", name="text")
+    label.label Word
+      .control
+        input.input(type="text", placeholder="nocoloured", name="word")
     label.label Citation
       .control
-        input.input(type="text", placeholder="'nor avoice from afire bellowsed mishe mishe' (FW 003.09)", name="citation")
+        input.input(type="text", placeholder="'his nocoloured waistcoat began to feel tighter' (U 003.09)", name="citation")
     label.label Analysis
       .control
         textarea.textarea(placeholder="Enter your analysis here.", name="analysis")
