@@ -12,6 +12,7 @@ html
       $(document).ready( function () {    $('#wordTable').DataTable({
         'paging': false,
         'scrollY': true,
+        'order': [[ 1, 'asc']], // Order by word (column 1)
         'scroller': { 'rowHeight': 30 }
       });} );
     title= title
