@@ -9,9 +9,9 @@ Rather than being a conventional dictionary, which assumes an authoritative role
 
 ## People 
 
-**Creator / director**: Natasha Chenier
+**Director**: Natasha Chenier
 
-**Tech leads**: James O'Sullivan, Jonathan Reeve
+**Technical Directors**: Jonathan Reeve & James O'Sullivan
 
 **Advisory board**: Bill Brockman, Ronan Crowley, Ciaran McMorran, Elizabeth M. Bonapfel, Fritz Senn, Ira Nadel, James O’Sullivan, Jerome McGann, Matt Cohen, and Terence Killeen.
 
