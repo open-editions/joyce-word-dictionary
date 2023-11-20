@@ -9,7 +9,7 @@ Rather than being a conventional dictionary, which assumes an authoritative role
 
 ## People 
 
-**Director**: Natasha Chenier
+**Director**: Riv Chénier
 
 **Technical Directors**: Jonathan Reeve & James O'Sullivan
 
